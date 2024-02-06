@@ -1,0 +1,190 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: #850a0a;
+    font-size: 2rem;
+    color: rgb(181, 138, 28);
+    -webkit-text-stroke: 0.1rem #000000;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../www/road.jpg);
+    background-size: cover;
+    padding: 2rem;
+}
+.lore-text {
+    background-color: white;
+    height: 15rem ;
+    width: 90vw;
+    border: solid 1px red;
+    padding: 0.5rem;
+    margin: 1rem;
+    overflow: auto;
+    user-select: none;
+}
+
+
+.lore-img{
+    height: 25rem;
+    width: 40rem;
+    /*border: solid 1px red;*/
+}
+
+.intro{
+    background-image: url(../www/intro.png);
+    background-position: center;
+    background-size: cover; 
+}
+.lvlUp{
+    background-image: url(../www/lvlup.png);
+    background-position: center;
+    background-size: cover; 
+}
+.joy{
+    background-image: url(../www/joy.png);
+    background-position: center;
+    background-size: cover; 
+}
+/* -----------------------Goblin------------------------------ */
+.goblin{
+    background-image: url(../www/goblin.png);
+    background-position: center;
+    background-size: cover;
+}
+.goblinFight{
+    background-image: url(../www/goblinFight.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----------------------Kobold------------------------------ */
+.kobold{
+    background-image: url(../www/kobold.png);
+    background-position: center;
+    background-size: cover;
+}
+.koboldFight{
+    background-image: url(../www/koboldFight.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----------------------Bandit------------------------------ */
+.tavern{
+    background-image: url(../www/tavern.png);
+    background-position: center;
+    background-size: cover;
+}
+.bandit{
+    background-image: url(../www/bandit.png);
+    background-position: center;
+    background-size: cover;
+}
+.banditFight{
+    background-image: url(../www/banditFight.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----------------------Demons------------------------------ */
+.demons{
+    background-image: url(../www/demons.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.demonsFight{
+    background-image: url(../www/demonsFight.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----------------------Demon Zoro------------------------------ */
+.demonZoro{
+    background-image: url(../www/demonZoro.png);
+    background-position: center;
+    background-size: cover;
+}
+.demonZoroFight{
+    background-image: url(../www/demonZoroFight.png);
+    background-position: center;
+    background-size: cover;
+    border: #850a0a 2px solid;
+}
+
+
+/* -----------------------Demon King------------------------------ */
+.demonKing{
+    background-image: url(../www/demonKing.png);
+    background-position: center;
+    background-size: cover;
+}
+.demonKingFight{
+    background-image: url(../www/demonKingFight.png);
+    background-position: center;
+    background-size: cover;
+}
+.demonKingDead{
+    background-image: url(../www/demonKingDead.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----------------------gods------------------------------ */
+.gods{
+    background-image: url(../www/demonKing.png);
+    background-position: center;
+    background-size: cover;
+}
+.godFight{
+    background-image: url(../www/godsFight.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* -----------------------endings------------------------------ */
+.goblinslayer{
+    background-image: url(../www/goblinslayer1.png);
+    background-position: center;
+    background-size: cover;
+}
+.home{
+    background-image: url(../www/home.png);
+    background-position: center;
+    background-size: cover;
+}
+.paz{
+    background-image: url(../www/paz.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.hero1{
+    background-image: url(../www/Hero.webp);
+    background-position: center;
+    background-size: cover;
+}
+.hero2{
+    background-image: url(../www/hero2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* ----------------------------------------------------------- */
+.hide{
+    appearance: none;
+    pointer-events: none;
+    background: none;
+    color: rgb(0, 0, 0, 0);
+    border: none;
+    content: none;
+    user-select: none;
+}
+
